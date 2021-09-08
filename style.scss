@@ -12,7 +12,12 @@
 }
 
 body {
-    background: linear-gradient(180deg, rgba(132, 133, 136, 0.767) 40%, rgba(223, 97, 24, 0.45) 85%);
+    background: linear-gradient(180deg, rgba(132, 133, 136, 0.767) 40%, rgba(194, 179, 170, 0.562) 85%);
+}
+
+h1 {
+    width: 100%;
+    margin-left: 0px;
 }
 
 .container {
@@ -25,7 +30,7 @@ body {
     padding: 10px;
     width: 100%;
     border-bottom: 1px solid black;
-    background: linear-gradient(180deg,  rgb(40, 151, 187) 40%, rgb(255, 255, 255) 85%);
+    background: linear-gradient(180deg,  rgb(199, 67, 15) 40%, rgb(143, 141, 141) 85%);
 }
 
 .main {
@@ -33,7 +38,7 @@ body {
 }
 
 .container .pjPic {
-    width: 30%;
+    width: 50%;
     border-radius: 50%;
 }
 
@@ -42,25 +47,25 @@ body {
 }
 
 .container .btnGallery {
-    width: 50%;
-    height: 6vh;
+    width: 25%;
+    height: 5vh;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    padding-top: 10px;
+    padding-top: 8px;
     margin: 40px 20px 0px 0px;
-    background: rgba(212, 203, 203, 0.61);
+    background: rgba(64, 119, 223, 0.81);
     color: rgb(42, 40, 42);
     text-align: center;
 }
 
 .container .btnHome {
-    width: 50%;
+    width: 25%;
     height: 6vh;
     font-size: 1.2rem;
     border: none;
     border-radius: 10px;
-    padding-top: 10px;
+    padding-top: 8px;
     margin: 40px 20px 0px 0px;
     background: rgba(212, 203, 203, 0.61);
     color: rgb(42, 40, 42);
